@@ -1,4 +1,5 @@
 import React from 'react'
+import { NewsContainer, NewsWrapper, NewsH1, NewsCard, NewsImg, NewsP, NewsH2 } from './NewsElements';
 
 const News = () => {
     return (

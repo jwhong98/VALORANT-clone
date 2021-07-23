@@ -1,4 +1,6 @@
 import React from 'react'
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink,
+SidebarDropDown } from './SidebarElements';
 
 const Sidebar = () => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElement';
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroP, HeroH1, HeroBtnWrapper } from './HeroElements';
 
 const HeroSection = () => {
     return (
