@@ -12,6 +12,7 @@ export const InfoWrapper = styled.div`
     max-width: 1100px;
     margin: auto;
     justify-content: center;
+    border-left: 0.5px solid #928F8B ;
 `;
 
 export const InfoRow = styled.div`

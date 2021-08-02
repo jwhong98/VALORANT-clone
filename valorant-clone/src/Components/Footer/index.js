@@ -1,12 +1,13 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaDiscord, FaTwitter, FaYoutube } from 'react-icons/fa';
-import { FooterContainer, FooterWrap, DownloadLink, FooterLogo, SocialMedia,
+import { FooterContainer, Download, DownloadLink, FooterLogo, SocialMedia,
 SocialMediaWrap, SocialIcons, SocialIconLink, WebsiteRights, FooterLinksContainer, FooterLink, FooterLinksWrapper, Rating } from './FooterElements';
 const Footer = () => {
     return (
         <FooterContainer>
-            <FooterWrap>
-                <DownloadLink>DOWNLOAD GAME CLIENT</DownloadLink>
+                <Download>
+                    <DownloadLink>DOWNLOAD GAME CLIENT</DownloadLink>
+                </Download>
                 <FooterLogo/>
                 <SocialMedia>
                     <SocialMediaWrap>
@@ -39,7 +40,7 @@ const Footer = () => {
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <Rating></Rating>
-            </FooterWrap>
+
         </FooterContainer>
     )
 }

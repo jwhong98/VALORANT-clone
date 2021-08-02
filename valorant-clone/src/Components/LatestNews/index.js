@@ -2,11 +2,15 @@ import React from 'react'
 import Img1 from "../../Images/img-1.jpeg";
 import Img2 from "../../Images/img-2.jpeg";
 import Img3 from "../../Images/img-3.jpeg";
-import { NewsContainer, NewsWrapper, NewsH1, NewsCard, NewsImg, NewsP, NewsH2 } from './NewsElements';
+import { NewsContainer, TransparentText, Line1, Line2, NewsWrapper, NewsH1, NewsCard, NewsImg, NewsP, NewsH2 } from './NewsElements';
 
 const News = () => {
     return (
         <NewsContainer>
+            <TransparentText>
+                <Line1>WE ARE</Line1>
+                <Line2>VALORANT</Line2>
+            </TransparentText>
             <NewsH1>Latest News</NewsH1>
             <NewsWrapper>
                 <NewsCard>
