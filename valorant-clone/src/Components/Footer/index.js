@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrap>
-                <DownloadLink></DownloadLink>
-                <FooterLogo></FooterLogo>
+                <DownloadLink>DOWNLOAD GAME CLIENT</DownloadLink>
+                <FooterLogo/>
                 <SocialMedia>
                     <SocialMediaWrap>
                     <SocialIcons>
