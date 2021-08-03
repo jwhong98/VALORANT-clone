@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 export const FooterContainer = styled.footer`
     background-color: #111111;
     height: 700px;
-    padding: 50px;
+    padding: 40px;
 `;
 
 // export const FooterWrap = styled.div`
@@ -26,6 +26,9 @@ export const Download = styled.div`
 
 export const DownloadLink = styled(Link)`
     color: #7E7E7E;
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 800;
     
 `;
 
@@ -65,7 +68,7 @@ export const WebsiteRights = styled.small`
     display: flex;
     font-size: 0.6rem;
     margin: auto;
-    max-width: 450px;
+    max-width: 430px;
     margin-bottom: 30px;
 `;
 

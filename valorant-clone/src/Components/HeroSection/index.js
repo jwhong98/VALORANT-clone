@@ -13,7 +13,7 @@ const HeroSection = () => {
                 <HeroP>A 5v5 character-based tactical shooter</HeroP>
                 <HeroH1>VALORANT</HeroH1>
                 <HeroBtnWrapper>
-                    <Button>
+                    <Button primary={true} dark={false}>
                         PLAY FREE
                     </Button>
                 </HeroBtnWrapper>

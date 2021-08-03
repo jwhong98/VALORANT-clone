@@ -47,6 +47,8 @@ export const Heading = styled.h1`
     font-size: 7rem;
     line-height: 1.1;
     font-weight: 800;
+    padding: 20px 0;
+    border-top: 1px solid ${({lightBg}) => (lightBg ? '#928F8B' : '#ECE8E1' )};
 `;
 
 export const Subtitle = styled.h2`
@@ -68,6 +70,8 @@ export const Content = styled.p`
 export const BtnWrap = styled.div`
     display: flex;
     justify-content: flex-start;
+    position: relative;
+    top: 40px;
 `;
 
 export const ImgWrap = styled.div`

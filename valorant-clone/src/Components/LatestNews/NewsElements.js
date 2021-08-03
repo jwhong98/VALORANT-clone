@@ -19,13 +19,16 @@ export const TransparentText = styled.div`
 export const Line1 = styled.span`
     font-size: 15rem;
     color: #ECE8E1;
+    font-weight: 600;
     text-shadow: -1px -1px 0 #DBD8D2, 1px -1px 0 #DBD8D2, -1px 1px 0 #DBD8D2, 1px 1px 0 #DBD8D2;
     z-index: 0;
+    margin-top: -120px;
 `
 
 export const Line2 = styled.span`
     font-size: 15rem;
     color: #ECE8E1;
+    font-weight: 600;
     text-shadow: -1px -1px 0 #DBD8D2, 1px -1px 0 #DBD8D2, -1px 1px 0 #DBD8D2, 1px 1px 0 #DBD8D2;
     z-index: 0;
     position: relative;
@@ -36,6 +39,9 @@ export const NewsH1 = styled.h1`
     font-size: 4rem;
     color: #FF4655;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 `
 
 export const NewsWrapper = styled.div`
